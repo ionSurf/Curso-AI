@@ -1,6 +1,6 @@
 live_loop :foo do
   use_synth :pluck
-  a = File.open("/Users/Elihu/Desktop/nota.txt","r")
+  a = File.open("ruta de archivo","r")
   nota = a.read
   ##b = nota.split(",").map { |s| s.to_i }
   ##c = choose([60,67,63])
