@@ -55,7 +55,7 @@ mnot   = function (A)    return mmap(cnot, A) end
 local sistema = nec{1,0,1,0,1} -- evalúa sistema
 
 for c, v in ipairs(sistema) do
-  local file = io.open("ruta/de/archivo","w")
+  local file = io.open("/ruta/de/archivo","w")
   file:write(v)
   file:close()
   print(v)
